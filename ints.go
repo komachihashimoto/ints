@@ -8,4 +8,9 @@ func main() {
 	b := 7
 	fmt.Println(3 * a)
 	fmt.Println(b - a)
+
+	a = 100
+	b += a
+	fmt.Println(a)
+	fmt.Println(b)
 }
